@@ -125,8 +125,10 @@ _Temps estimé : 20 mins_
 * Implémenter (en junit) des TU sur la règle de gestion qui consiste à afficher `[LATE!]` dans la description d'un item en retard de plus de 24h.
 
 *Quels types de tests devra-t-on écrire pour les adapteurs ?* 
+On devre mettre en place des test d'intégrations
 
 *Que teste-on dans ce cas ?*
+On teste le bon fonctionnement du logiciel ou d'une partie précise de celui ci.
 
 *S'il vous reste du temps, écrire quelques uns de ces types de test.*
 
