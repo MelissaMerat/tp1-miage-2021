@@ -19,7 +19,6 @@ public class GetTodoItemsService implements GetTodoItems {
 	@Inject
 	public GetTodoItemsService(LoadTodoItem loadTodoItem) {
 		this.loadTodoItem = loadTodoItem;
-
 	}
 
 	@Override
