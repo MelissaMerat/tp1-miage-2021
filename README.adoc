@@ -41,7 +41,7 @@ TIP: [Rappel Git] Trois dépôts sont ici utilisés: le dépot Github de l'ensei
 Le code n'est pas découpé en couches.
 
 *Où se trouve le code métier (voir la règle de gestion RG 1) ?*
-La règle de destion se trouve dans le fichier TodoListControl
+La règle de gestion se trouve dans le fichier TodoListControl
 
 *Cette règle est-elle facilement testable par un test unitaire ?*
 Cette règle n'est pas facilement testable par un test unitaire car la méthde est privée
@@ -66,7 +66,7 @@ Il faut mettre en place de l'injection de dépendance, en utilisant insomnia on 
 * Modifier le code en conséquence.
 
 * Tester vos endpoints avec un client REST.
-
+Nous avons reçu un retour 201, la donnée a bien été ajouté à la base.
 
 [NOTE]
 ====
@@ -87,6 +87,7 @@ NOTE: Pour lancer l'application Spring, selectionner la classe `TodolistApplicat
 * Quand les deux endpoints fonctionnent, commiter, faire un push vers Github et fermer le projet Eclipse (ne pas le supprimer).
 
 * Vérifier avec DBeaver que les donnnées sont bien en base PostgreSQL.
+La donnée est bien visualisable dans les données de DBeaver.
 
 ### Exercice 2 - Refactoring en architecture hexagonale
 _Temps estimé : 1 h 20_
