@@ -43,13 +43,31 @@ public class TodoItem {
 		this.time = time;
 		this.content = content;
 	}
+	
+	
+
+	public static String getLate() {
+		return LATE;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setTime(Instant time) {
+		this.time = time;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
 
 	@Override
 	public String toString() {
 		return "TodoItem [id=" + id + ", time=" + time + ", content=" + content + "]";
 	}
 
-	boolean isLate() {
+	public boolean isLate() {
 		return Instant.now().isAfter(getTime().plus(1, ChronoUnit.DAYS));
 	}
 
